@@ -1,11 +1,13 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import UserList from './components/UserList';
+import TodoList from './components/TodoList';
 
 function App() {
 
   return (
     <div className="App">
       <UserList />
+      <TodoList />
     </div>
   );
 }
