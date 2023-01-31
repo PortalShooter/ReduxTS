@@ -1,14 +1,11 @@
-import React from 'react';
-import { useAppSelector } from './hooks/useAppSelector';
+import React, { useEffect } from 'react';
+import UserList from './components/UserList';
 
 function App() {
-  const user = useAppSelector(state => state)
-
-  console.log('user :>> ', user);
 
   return (
     <div className="App">
-      
+      <UserList />
     </div>
   );
 }
